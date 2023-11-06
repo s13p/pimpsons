@@ -2914,11 +2914,14 @@ html.w-mod-js *[data-ix="homer-on-load"] {
   padding: 2rem 8rem;
   margin-top: 3rem;
 }
-.about h1 {
+.about h1  {
   font-size: 80px;
   color:rgb(255, 200, 0) ;
   letter-spacing: 4px;
-  word-wrap: break-word;
+}
+.tulia {
+  color:rgb(255, 200, 0) ;
+  font-size: 80px;
 }
 .bartoto {
   display: block;
@@ -2937,6 +2940,26 @@ html.w-mod-js *[data-ix="homer-on-load"] {
   width: 90vw;
   margin-top: 10vh;
 }
+.tg{
+  position:absolute;
+  top: 0;
+  left:0;
+z-index: 99;
+position: fixed;
+height: 140px;
+width: 140px;
+margin-top: 30vh;
+}
+.x{
+  position:absolute;
+  top: 0;
+  left:0;
+z-index: 99;
+position: fixed;
+height: 140px;
+width: 140px;
+margin-top: 50vh;
+}
 @media only screen and (max-width: 600px) {
   .about {
     font-size: 23px;
@@ -2944,5 +2967,30 @@ html.w-mod-js *[data-ix="homer-on-load"] {
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 2rem;
+  }
+  .tg{
+    position:absolute;
+    top: 0;
+    left:0;
+  z-index: 99;
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  margin-top: 30vh;
+  }
+  .x{
+    position:absolute;
+    top: 0;
+    left:0;
+  z-index: 99;
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  margin-top: 50vh;
+  }
+  .tulia 
+  {
+font-size: 30px;
+color:rgb(255, 200, 0) ;
   }
 }
