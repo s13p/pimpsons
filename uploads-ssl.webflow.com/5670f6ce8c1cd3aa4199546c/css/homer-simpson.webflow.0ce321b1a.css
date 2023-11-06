@@ -2918,6 +2918,7 @@ html.w-mod-js *[data-ix="homer-on-load"] {
   font-size: 80px;
   color:rgb(255, 200, 0) ;
   letter-spacing: 4px;
+  word-wrap: break-word;
 }
 .bartoto {
   display: block;
